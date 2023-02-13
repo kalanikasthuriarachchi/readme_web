@@ -34,7 +34,7 @@ function Hero() {
                   <img
                     src={process.env.PUBLIC_URL + owner_data.owner.image_path}
                     alt="owner"
-                    className="hover:scale-105 duration-700 max-w-[23rem]"
+                    className="hover:scale-105 duration-700 max-w-[20rem]"
                   />{" "}
                 </p>
               </div>
