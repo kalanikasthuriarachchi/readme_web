@@ -9,7 +9,8 @@ function Hero() {
     <div>
       {OwnerData.map((owner_data) => {
         return (
-          <div key={owner_data.id}
+          <div
+            key={owner_data.id}
             id="about"
             className="max-w-[85vw] m-auto md:h-screen flex flex-col pt-20 justify-between"
           >
@@ -33,7 +34,7 @@ function Hero() {
                   <img
                     src={process.env.PUBLIC_URL + owner_data.owner.image_path}
                     alt="owner"
-                    className="hover:scale-105 duration-700"
+                    className="hover:scale-105 duration-700 max-w-[23rem]"
                   />{" "}
                 </p>
               </div>
@@ -71,7 +72,10 @@ function Hero() {
                   </p>
                 </div>
                 <p className="md:text-6xl text-5xl text-center md:text-left capitalize font-bold">
-                {owner_data.owner.name.first_name} <span className="text-blue">{owner_data.owner.name.last_name}.</span>
+                  {owner_data.owner.name.first_name}{" "}
+                  <span className="text-blue">
+                    {owner_data.owner.name.last_name}.
+                  </span>
                 </p>
                 <div className="">
                   <p className=" py-10 text-center md:text-left max-w-[40rem] text-base sm:text-2xl">
@@ -101,7 +105,7 @@ function Hero() {
               <div className="m-auto md:float-right md:w-full w-96">
                 <img
                   src={process.env.PUBLIC_URL + owner_data.owner.image_path}
-                  className="float-right hover:scale-105 w-[40rem] duration-700"
+                  className="float-right hover:scale-105 w-[35rem] duration-700"
                   alt="owner"
                 />
               </div>
