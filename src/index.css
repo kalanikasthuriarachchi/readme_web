@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --gray: #d9d9d9;
+    --black: #232e35;
+    --blue: #7e74f1;
+    --white: #ffffff;
+    --gray2: #656d72;
+  }
+
+  html {
+    @apply scroll-smooth;
+    @apply bg-white;
+    @apply text-black;
+    @apply font-sans;
+  }
+
+  li {
+    @apply md:p-4 lg:p-7;
+  }
+}
+
+.active{
+  color: red;
+}

@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "owner": {
+      "name": {
+        "first_name": "Kalani",
+        "last_name": "Kasthuriarachchi"
+      },
+      "email": "kalanikasthuriarachchi98@gmail.com",
+      "mobile": "+94712716098",
+      "address": "Mavanalla, Kagalle, Srilanka",
+      "favicon_path": "",
+      "image_path": "/images/user.svg",
+      "about": "Good Developer and Operator with more than 2+ years of experience in Software Engineering. Proficient in AWS, Terraform, Ansible, Python, Linux, Java, JavaScript, React, Flutter, etc. Passionate about DevOps",
+      "social_media_url": {
+        "linkedin": "https://www.linkedin.com/in/kalani-kasthuriarachchi",
+        "github": "https://github.com/kalanikasthuriarachchi"
+      }
+    },
+
+    "services": [
+      {
+        "id": 1,
+        "title": "DevOps Services",
+        "discription": "Turn what you have in mind of a digital product into reality. For any platform you consider."
+      },
+      {
+        "id": 2,
+        "title": "App Development",
+        "discription": "Standard designing, building, and implementing your Mobile applications."
+      },
+      {
+        "id": 3,
+        "title": "Web Development",
+        "discription": "Create and maintain your websites and also take care of its performance and traffic capacity."
+      }
+    ],
+
+    "projects": [],
+
+    "experiences": [
+      {
+        "id": 1,
+        "job_title": "Center for Defense Research and Development, ",
+        "company": "Ministry of Defense ",
+        "location": "Sri Lanaka",
+        "start_date": "Dec 2022",
+        "end_date": "Present",
+        "activity": [
+          {
+            "id": 1,
+            "activity": ""
+          },
+          {
+            "id": 2,
+            "activity": ""
+          },
+          {
+            "id": 3,
+            "activity": ""
+          }
+        ]
+      }
+    ],
+
+    "skill_discription": "For 2+ years, I have been continuously learning in the field of Software Engineering and experimenting with new technologies and frameworks, and here you can see a summary of my skills.",
+    "my_skills": [
+      {
+        "id": 1,
+        "skill": "javaScript",
+        "percentage": "90%"
+      },
+      {
+        "id": 2,
+        "skill": "React",
+        "percentage": "85%"
+      },
+      {
+        "id": 3,
+        "skill": "java",
+        "percentage": "80%"
+      },
+      {
+        "id": 4,
+        "skill": "python",
+        "percentage": "65%"
+      },
+      {
+        "id": 5,
+        "skill": "flutter",
+        "percentage": "85%"
+      },
+      {
+        "id": 6,
+        "skill": "AWS",
+        "percentage": "75%"
+      },
+      {
+        "id": 7,
+        "skill": "Terraform",
+        "percentage": "70%"
+      },
+      {
+        "id": 8,
+        "skill": "Linux",
+        "percentage": "90%"
+      }
+    ],
+    "education": [
+      {
+        "id": 1,
+        "school": "NSBM Green University",
+        "subject": "BSc (Hons) Software Engineering",
+        "start_date": "jun 2021",
+        "end_date": "Present"
+      },
+      {
+        "id": 2,
+        "school": "St' Joseph's Girls College Kegalle",
+        "subject": "Combined Maths",
+        "start_date": "",
+        "end_date": ""
+      }
+    ],
+    "testimonials": [
+      {
+        "id": 1,
+        "icon": "/images/testimonials/avatar1.svg",
+        "name": "Isabella Bennett",
+        "company": "Microsoft",
+        "massage": "I’m glad I decided to work with you. The project was delivered on time with all the requirements"
+      },
+      {
+        "id": 2,
+        "icon": "/images/testimonials/avatar2.svg",
+        "name": "James Delaney",
+        "company": "Google",
+        "massage": "The management of our projects was always faced with difficulties, but you handled these well"
+      },
+      {
+        "id": 3,
+        "icon": "/images/testimonials/avatar3.svg",
+        "name": "Amelia Miller",
+        "company": "IBM",
+        "massage": "We were very pleased to hear how you resolved our website's user interface issues and challenges"
+      }
+    ]
+  }
+]
